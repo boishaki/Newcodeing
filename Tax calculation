@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+class Table{
+    public static void main(String[]args){
+        int sal;double tax;
+        System.out.print("Enter salary ");
+        Scanner obj=new Scanner(System.in);
+        sal=obj.nextInt();
+        if(sal<=10000){
+            System.out.print("No tex ");
+            
+        }
+        else if(sal>10000 && sal<=100000){
+            tax=sal*0.10;
+            System.out.print("Tax ");
+        }
+        else{
+            tax=sal*0.10;
+            System.out.print("Also tax ");
+        }
+    }
+    
+    }
+    
