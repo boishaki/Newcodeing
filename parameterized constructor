@@ -1,0 +1,26 @@
+//parameterized constructor
+class A{
+    int x,y;
+    A( int a,int b)//parameterized
+    {
+        x=a; y=b;
+    }
+    A(int a,String b)
+    {
+        //x=a; y=b;
+        System.out.println(a+" "+b);
+    }
+    void show()
+    {
+     System.out.println(x+" "+y);   
+    }
+}
+class B
+{
+    public static void main(String[]args)
+    {
+        A obj=new A(100,200);
+        obj.show();
+        A r =new A(10, "boishakhi");
+    }
+}
