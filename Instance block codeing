@@ -1,0 +1,28 @@
+// Instance block
+
+class A
+{
+    int a,b;
+    static void show()
+    {
+        System.out.println("god loves me");
+    }
+    A()
+    {
+        a=10;b=20;
+        System.out.println(a+" "+b);
+    }
+    {
+        a=30;b=40;
+       System.out.println(a+" "+b); 
+    }
+}
+class B
+{
+    public static void main(String[]args)
+    {
+        A.show();
+        A r=new A();
+        
+}
+}
